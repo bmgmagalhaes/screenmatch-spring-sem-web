@@ -26,8 +26,6 @@ public class Serie {
     @OneToMany(mappedBy = "serie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Episodio> episodios = new ArrayList<>();
 
-
-
     public List<Episodio> getEpisodios() {
         return episodios;
     }

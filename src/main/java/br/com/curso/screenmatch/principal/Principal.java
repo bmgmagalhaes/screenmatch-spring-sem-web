@@ -12,7 +12,6 @@ public class Principal {
 
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=bf0e95ab";
-
     private Scanner leitor = new Scanner(System.in);
     private ConsumoAPI consumoAPI = new ConsumoAPI();
     private ConverteDados conversor = new ConverteDados();
@@ -43,6 +42,7 @@ public class Principal {
                     
                     0 - Sair
                     """;
+
         while (opcao!=0) {
             System.out.println(menu);
 
